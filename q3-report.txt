@@ -1,0 +1,9 @@
+On running the three variants of mergesort(viz. standard, using processes and using threads) for the same input(of size 10^4) the following is the time taken:
+
+1) Standard Mergesort -  0.017 seconds
+2) Threads Mergesort - 0.345 seconds
+3) Processes Mergesort - 0.555 seconds
+
+Thus it can be seen that standard mergesort is the fastest followed by thread mergesort. Processes mergesort is the slowest.
+
+The reason for above result is that in standard mergesort no new thread or process is being created and everything is being co-ordinated by the OS. Thus it is most efficient and no overhead of creation of process and thread is involved and hence the fastest. Thread mergesort is faster than process mergesort as the overhead of creating threads is lesser compared to processes and also threads work in paralle unlike processes where we have to wait for one process to end so that a new process could be started.
