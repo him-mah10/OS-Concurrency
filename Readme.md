@@ -12,3 +12,5 @@ __For quesions please refer to Assignment4.pdf__
 
 #### How to Run?
 To run, type followint command in the terminal - "gcc -pthread <file-name>" and after that type "./a.out". For question 3, where time taken by file to execute is needed type "time ./a.out". The time in this is given by "real".  
+
+#### Cheers!!!
